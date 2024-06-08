@@ -8,4 +8,4 @@
 
 - 作者不会安卓编程，这是通过AI写的
 
-![](/docs/1.jpg)
+<img src="/docs/1.jpg" height=500 />
