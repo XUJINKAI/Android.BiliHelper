@@ -7,4 +7,40 @@
     android:layout_height="match_parent"
     tools:context=".NewShortcutActivity">
 
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="标题"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="https://b23.tv/xxx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subjectEditText" />
+
+    <EditText
+        android:id="@+id/packageNameEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="tv.danmaku.bili"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/urlEditText" />
+
+    <Button
+        android:id="@+id/createShortcutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建快捷方式"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/packageNameEditText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
