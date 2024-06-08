@@ -26,6 +26,7 @@ public class NewShortcutActivity extends AppCompatActivity {
             return insets;
         });
 
+        setTitle(R.string.new_shortcut_title);
         setupCreateShortcutButton();
         setupIntentLoader();
     }

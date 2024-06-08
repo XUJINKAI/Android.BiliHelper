@@ -7,7 +7,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.jinkai.nav_drawer"
+        applicationId = "com.xujinkai.bili_helper"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

@@ -38,7 +38,7 @@
         android:id="@+id/createShortcutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="创建快捷方式"
+        android:text="添加到桌面"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/packageNameEditText" />
